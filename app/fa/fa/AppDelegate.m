@@ -27,8 +27,8 @@
     self.manager = [AFHTTPSessionManager manager];
     self.currentStatus = 0;
     self.hasService = 0;
-    self.serverUrl = @"https://gopplusd.azurewebsites.net/";
-    self.payworksUrl = @"https://gopplusp.azurewebsites.net/";
+    self.serverUrl = @"https://gopplusdd.azurewebsites.net/";
+    self.payworksUrl = @"https://goppluspp.azurewebsites.net/";
     self.isAlertOpen = NO;
 
     [GMSServices provideAPIKey:@"AIzaSyBHLzjH7LEnHdjUlTaRrDBpLjOIsyqTTIs"];
